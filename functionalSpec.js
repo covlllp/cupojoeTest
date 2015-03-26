@@ -1,3 +1,6 @@
+var chai = require('chai');
+var expect = chai.expect;
+
 describe("countWords", function() {
   it("counts words in a sentence separated by empty space", function() {
     expect(countWords("this is a sentence with 7 words")).toEqual(7);
