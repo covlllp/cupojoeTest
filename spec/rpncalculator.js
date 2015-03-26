@@ -79,3 +79,5 @@ Calculator.prototype.divide = function() {
 // 	var obj = this._getAB();
 // 	this.vals.push(obj.B / obj.A);
 // }
+
+module.exports = Calculator;

@@ -1,3 +1,5 @@
+var Calculator = require('./rpncalculator');
+
 // See http://en.wikipedia.org/wiki/Reverse_Polish_notation
 describe("Calculator using reverse polish notation", function() {
   var calculator;
