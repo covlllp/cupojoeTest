@@ -11,7 +11,7 @@ Calculator.prototype._getAB = function() {
 
 Calculator.prototype._err_message = function(len) {
 	if (this.vals < len) {
-		throw "calculator is empty";
+		throw 'calculator is empty';
 		return false;
 	} else return true;
 }
@@ -34,7 +34,7 @@ Calculator.prototype._doWork = function(func) {
 
 Calculator.prototype.plus = function() {
 	this._doWork(function(obj) {
-		return obj.A + obj.B;
+		return obj.A - obj.B;
 	});
 }
 
